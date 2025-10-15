@@ -23,7 +23,6 @@ public  class Sumar {
         // Se usa el operador suma entre una cadena de texto y un entero
         System.out.println("La suma de los dos valores es :" + resultado +  ".");
 
-        //
         System.out.print ("Ingrese 2 nùmeros:");
         int k = sc.nextInt();
         sc.nextLine();
