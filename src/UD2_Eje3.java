@@ -12,7 +12,7 @@ public class UD2_Eje3 {
         char caracter = ((char) ascii);
         System.out.println("El caracter ASCII es: "+ caracter);
 
-        if ( caracter == 'A' || caracter == 'E' || caracter == 'I' || caracter == 'O' || caracter == 'U'  )
+        if ( Character.toUpperCase(caracter) == 'A' || Character.toUpperCase(caracter) == 'E' || Character.toUpperCase(caracter) == 'I' || Character.toUpperCase(caracter) == 'O' || Character.toUpperCase(caracter) == 'U'  )
         {
             System.out.println("Es vocal");
 
