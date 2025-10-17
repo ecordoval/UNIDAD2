@@ -20,7 +20,5 @@ public class UD2_Eje5_2 {
 
         System.out.println("Los números aleatorios son: "+numeroAleatorio1+" " + numeroAleatorio2+" " + numeroAleatorio3);
 
-
-
     }
 }
