@@ -18,7 +18,7 @@ public class UD2_Eje5_2 {
         int numeroAleatorio2 = (int) (ramdom2 * numero)+ 1;
         int numeroAleatorio3 = (int) (ramdom3 * numero)+ 1;
 
-        System.out.println("Los números aleatorios son: "+numeroAleatorio1+" " + numeroAleatorio2+" " + numeroAleatorio3);
+        System.out.println("Los números aleatorios son: "+numeroAleatorio1+"," + numeroAleatorio2+"," + numeroAleatorio3);
 
     }
 }
