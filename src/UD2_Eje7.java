@@ -1,4 +1,7 @@
-public class UD2_Eje7 {
+
+
+public class UD2_Eje7
+{
     public static void main (String [] args)
     {
         int numero1;
