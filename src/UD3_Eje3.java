@@ -6,12 +6,12 @@ public class UD3_Eje3
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese una letra:");
-     /*   char letra = sc.nextChar();
+        char letra = sc.next().charAt(0);
 
-        if(letra.isletter()){
+        if(Character.isLetter(letra)){
             System.out.println("Es una letra");
 
-        } else if (letra.isDigit()) {
+        } else if (Character.isDigit(letra)) {
             System.out.println("Es una cifra numérica");
 
         }
@@ -19,6 +19,6 @@ public class UD3_Eje3
             System.out.println("Es otro caracter");
 
         }
-*/
+
     }
 }
