@@ -20,7 +20,7 @@ public class UD3_Eje2 {
 
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese un dìa de la semana (1-7): ");
+        System.out.print("Ingrese un dìa de la semana (1-7): ");
         int diasemana = sc.nextInt();
 
        // double resultado = 0.0;

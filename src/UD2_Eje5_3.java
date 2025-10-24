@@ -8,7 +8,7 @@ public class UD2_Eje5_3 {
     {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese 2 números: ");
+        System.out.print("Ingrese 2 números: ");
         int numero1 = sc.nextInt();
         sc.nextLine();
         int numero2 = sc.nextInt();

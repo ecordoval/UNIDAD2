@@ -13,7 +13,7 @@ public class UD3_Eje1 {
 
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese el monto en pesetas: ");
+        System.out.print("Ingrese el monto en pesetas: ");
         double pesetas = sc.nextDouble();
 
         if (pesetas == 0){

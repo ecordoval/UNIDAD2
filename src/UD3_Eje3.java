@@ -5,8 +5,8 @@ public class UD3_Eje3
     public  static  void main (String [] args)  {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese una letra:");
-        char letra = sc.nextChar();
+        System.out.print("Ingrese una letra:");
+     /*   char letra = sc.nextChar();
 
         if(letra.isletter()){
             System.out.println("Es una letra");
@@ -19,6 +19,6 @@ public class UD3_Eje3
             System.out.println("Es otro caracter");
 
         }
-
+*/
     }
 }

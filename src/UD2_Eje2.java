@@ -6,7 +6,7 @@ public class UD2_Eje2 {
     {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese tu nombre: ");
+        System.out.print("Ingrese tu nombre: ");
         String nombre = sc.next();
 
         System.out.println("Hola " + nombre) ;

@@ -7,7 +7,7 @@ public class UD2_Eje5_2 {
     {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese un número: ");
+        System.out.print("Ingrese un número: ");
         int numero = sc.nextInt();
 
         double ramdom1 =Math.random();

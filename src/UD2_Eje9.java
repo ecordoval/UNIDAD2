@@ -7,9 +7,9 @@ public class UD2_Eje9 {
     {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese el primer número: ");
+        System.out.print("Ingrese el primer número: ");
         int numero1 = sc.nextInt();
-        System.out.println("Ingrese el segundo número: ");
+        System.out.print("Ingrese el segundo número: ");
         int numero2 = sc.nextInt();
         System.out.println("El resultado de elevar el primero al segundo es:"+ Math.pow(numero1, numero2));
 

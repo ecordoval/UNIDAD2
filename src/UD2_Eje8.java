@@ -8,10 +8,10 @@ public class UD2_Eje8 {
     {
         double resultado=0.0;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese el dividendo: ");
+        System.out.print("Ingrese el dividendo: ");
         Double dividendo = sc.nextDouble();
 
-        System.out.println("Ingrese el divisor: ");
+        System.out.print("Ingrese el divisor: ");
         Double divisor = sc.nextDouble();
 
         if (divisor != 0)

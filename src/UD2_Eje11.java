@@ -6,11 +6,11 @@ public class UD2_Eje11 {
 
         boolean meInteresa = false;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese el precio de la vivienda: ");
+        System.out.print("Ingrese el precio de la vivienda: ");
         int precio = sc.nextInt();
-        System.out.println("Ingrese la superficie de la vivienda: ");
+        System.out.print("Ingrese la superficie de la vivienda: ");
         int superficie = sc.nextInt();
-        System.out.println("¿Tiene garaje? (True/False) ");
+        System.out.print("¿Tiene garaje? (True/False) ");
         boolean tieneGaraje = sc.nextBoolean();
 
         if(precio < 150000 && superficie > 80 && tieneGaraje){

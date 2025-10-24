@@ -5,10 +5,10 @@ public class UD2_Eje1 {
     public  static  void main (String [ ] args)  {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese la base del rectángulo: ");
+        System.out.print("Ingrese la base del rectángulo: ");
         double base = sc.nextDouble();
 
-        System.out.println("Ingrese la altura del rectángulo: ");
+        System.out.print("Ingrese la altura del rectángulo: ");
         double altura = sc.nextDouble();
 
         double area = base*altura;
