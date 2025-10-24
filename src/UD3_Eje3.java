@@ -20,5 +20,7 @@ public class UD3_Eje3
 
         }
 
+       sc.close();
+
     }
 }
