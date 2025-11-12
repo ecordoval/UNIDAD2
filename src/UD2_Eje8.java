@@ -9,21 +9,22 @@ public class UD2_Eje8 {
         double resultado=0.0;
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese el dividendo: ");
-        Double dividendo = sc.nextDouble();
+        double dividendo = sc.nextDouble();
 
         System.out.print("Ingrese el divisor: ");
-        Double divisor = sc.nextDouble();
+        double divisor = sc.nextDouble();
 
         if (divisor != 0)
         {
             resultado = (dividendo / divisor);
+            System.out.printf("El resultado es %.3f ", resultado);
         }
         else
         {
             System.out.println("Error: No se puede dividir por cero.");
         }
 
-        System.out.printf("El resultado es %.3f ", resultado);
+
 
     }
 }
