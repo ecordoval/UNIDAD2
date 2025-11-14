@@ -14,6 +14,7 @@ public class UD4_Eje1 {
         double numero = sc.nextDouble();
 
         signo(numero);
+
     }
 
     private static int signo (double numero)
