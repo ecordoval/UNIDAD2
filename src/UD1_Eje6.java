@@ -1,13 +1,22 @@
 public class UD1_Eje6 {
     public  static  void main (String [ ] args) {
 
-        double dValor = 30000000000000.3;
-// Asignación incorrecta. Un real tiene decimales, no?
-        long lValor = (long) dValor;
-// Asignación incorrecta. Un entero largo tiene un rango mayor
-// que un entero, no?
-        int iValor = (int) lValor;
-        System.out.println(iValor);
+        int a = 'a';
+        System.out.println(a);
+
+        double pi = 3.14;
+        System.out.println(pi);
+        // int pi = 3.14; No compila porque se asigna un double a un Int
+
+        double pi2 = 3.14;
+        System.out.println(pi2);
+        // double pi = 3,14; No compila porque debe ser 3.14
+
+
+        boolean adivina = (1 == 4);
+        System.out.println(adivina);
+
+
 
 }
 }
