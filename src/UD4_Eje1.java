@@ -13,7 +13,7 @@ public class UD4_Eje1 {
         }
         double numero = sc.nextDouble();
 
-        signo(numero);
+        System.out.println(signo(numero));
 
 
     }
