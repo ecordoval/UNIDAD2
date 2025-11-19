@@ -1,23 +1,24 @@
 import java.util.Scanner;
 
-public class UD4_Eje13 {
-
+public class UD4_Eje14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Ingrese un valor n para obtener la secuencia Fibonacci:");
+        System.out.print("Ingrese un número entero:");
 
         while (!sc.hasNextInt()) {
             sc.nextLine();
-            System.out.print("Ingrese un valor n para obtener la secuencia Fibonacci:");
+            System.out.print("Ingrese un número entero:");
         }
 
-        int numero = sc.nextInt();
+        int numero =  sc.nextInt();
 
-        Fibonacci(numero);
+        System.out.println("La suma de las cifras es: "+sumaCifras(numero));
+
+        sc.close();
 
     }
 
-     static void Fibonacci(int numero)
+    private static int sumaCifras(int numero)
     {
         if (numero == 1)
         {
@@ -36,6 +37,21 @@ public class UD4_Eje13 {
 
 
     }
-
-
 }
+
+
+564
+
+        564%10 = 4
+        564/10 = 56
+
+        56%10 = 6
+        56/10 = 50
+
+        50%10 = 5
+        50/10 = 5
+
+
+
+
+
