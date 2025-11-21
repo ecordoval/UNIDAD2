@@ -6,25 +6,16 @@ public class UD4_Eje7 {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese su nota (0-10) :");
-
-        while  (!sc.hasNextDouble())
+        while  (!sc.hasNextDouble() && sc.nextDouble() <=10 && sc.nextDouble() >0)
         {
             sc.nextLine();
             System.out.print("Ingrese su nota (0-10) :");
         }
         double nota = sc.nextDouble();
 
-        if (nota >= 0 && nota <=10)
-        {
-            System.out.println("Su nota es: "+ convertirATexto(nota));
+        System.out.println("Su nota es: "+ convertirATexto(nota));
 
-            sc.close();
-
-        }
-        else {
-            System.out.print("Nota ingresada invàlida ");
-        }
-
+        sc.close();
 
     }
 
