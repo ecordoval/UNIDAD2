@@ -24,7 +24,7 @@ public class DemoEmpleado {
 
         System.out.println("BUSQUEDA POR TERMINO:");
 
-        for (Empleado e: empresa.buscar("Contable"))
+        for (Empleado e: empresa.buscar("Ana"))
         {
             System.out.println(e);
 

@@ -1,7 +1,6 @@
 package Prac_06;
 
 import java.time.LocalDate;
-import java.time.Period;
 import java.time.temporal.ChronoUnit;
 
 public class Empleado {
@@ -81,7 +80,7 @@ public class Empleado {
 
     //metodo trabajar()
     public String trabajar() {
-       return "Estoy trabajando como" + puesto;
+       return "Estoy trabajando como " + puesto;
 
     }
 
