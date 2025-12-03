@@ -21,12 +21,12 @@ public class UD4_Eje14 {
     }
 
     private static int sumaCifras(int numero) {
-     
+
         if (numero == 0) {
             return suma;
         } else {
             int cifra= numero % 10;
-             suma = suma +cifra;
+            suma = suma +cifra;
             return sumaCifras(numero/10);
 
         }
@@ -44,7 +44,3 @@ public class UD4_Eje14 {
         5/10 = 0
 
 */
-
-
-
-
