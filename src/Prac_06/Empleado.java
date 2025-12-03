@@ -1,5 +1,4 @@
 package Prac_06;
-
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
@@ -101,8 +100,6 @@ public class Empleado {
     {
         if(fechaContratacion == null) return 0;
         return (int) ChronoUnit.DAYS.between(fechaContratacion, LocalDate.now());
-
-
     }
 
 
