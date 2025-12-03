@@ -2,6 +2,7 @@ package Prac_06;
 
 import java.time.LocalDate;
 import java.time.Period;
+import java.time.temporal.ChronoUnit;
 
 public class Empleado {
     private String nombre;
@@ -79,22 +80,28 @@ public class Empleado {
     }
 
     //metodo trabajar()
-    void trabajar() {
-        System.out.println("Estoy trabajando como" + puesto);
+    public String trabajar() {
+       return "Estoy trabajando como" + puesto;
 
     }
+
 
     @Override
     public String toString() {
-        return "Empleado [Nombre=" + nombre + " " + apellidos + ", Puesto=" + puesto + ", DNI=" + DNI + "]";
-
+        return "Empleado{" +
+                "nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                ", fechaContratacion=" + fechaContratacion +
+                ", DNI='" + DNI + '\'' +
+                ", salario=" + salario +
+                ", puesto='" + puesto + '\'' +
+                '}';
     }
 
-    public Period getantiguedad ()
+    public int getantiguedad ()
     {
-        LocalDate localDate = LocalDate.now();
-
-        return Period.between(this.fechaContratacion, localDate);
+        if(fechaContratacion == null) return 0;
+        return (int) ChronoUnit.DAYS.between(fechaContratacion, LocalDate.now());
 
 
     }
