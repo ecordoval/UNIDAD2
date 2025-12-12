@@ -6,6 +6,7 @@ public class UD5_Eje5 {
     public static void main(String [] args)
     {
         int [] array = new int [10];
+        boolean encontrado = false;
 
         for (int i =0; i < array.length; i++)
         {
@@ -21,12 +22,13 @@ public class UD5_Eje5 {
 
         while (true)
         {
+            encontrado = false;
             Scanner sc = new Scanner(System.in);
-            System.out.print("\nIngrese un nùmero entero:");
+            System.out.print("\nIngrese un número entero a buscar:");
             while (!sc.hasNextInt())
             {
                 sc.nextLine();
-                System.out.print("\nIngrese un nùmero entero a buscar:");
+                System.out.print("\nIngrese un número entero a buscar:");
 
             }
             int numero = sc.nextInt();
@@ -38,10 +40,24 @@ public class UD5_Eje5 {
 
             for ( int a : array)
             {
-                System.out.print(a+" ");
+               if (numero == a)
+               {
+                   encontrado= true;
+
+               }
+
 
             }
-            System.out.print("sdsd");
+
+            if (encontrado)
+            {
+                System.out.print("Si se encontró");
+            }
+            else {
+                System.out.print("No se encontró");
+
+            }
+
 
 
 
