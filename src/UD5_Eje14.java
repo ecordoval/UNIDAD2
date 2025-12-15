@@ -1,9 +1,14 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class UD5_Eje14 {
     public static void main (String [] args) {
 
         Scanner sc = new Scanner(System.in);
+        ArrayList<String> Huesca= new ArrayList<>();
+        ArrayList<String> Teruel= new ArrayList<>();
+        ArrayList<String> Zaragoza= new ArrayList<>();
+
         MostrarMenu();
 
         while (!sc.hasNextInt())
