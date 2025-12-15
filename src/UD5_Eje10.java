@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
-public class UD5_Eje9 {
+public class UD5_Eje10 {
     public static void main (String [] args) {
         int[] array1 = new int[10];
         ArrayList<Integer> repetidos = new ArrayList<>();
@@ -24,16 +24,16 @@ public class UD5_Eje9 {
 
         for (int i = 0; i < array1.length; i++)
         {
-           if ( buscarArreglo(array1, array1[i]))
-           {
-              repetidos.add(array1[i]);
+            if ( !buscarArreglo(array1, array1[i]))
+            {
+                repetidos.add(array1[i]);
 
-           }
+            }
 
         }
 
         sinduplicados= (ArrayList<Integer>) repetidos.stream().distinct().collect(Collectors.toList());
-        System.out.println("Repetidos:");
+        System.out.println("No Repetidos:");
         for (int a : sinduplicados) {
             System.out.print(a + " ");
         }
@@ -46,13 +46,13 @@ public class UD5_Eje9 {
         int count=0;
         for (int i = 0; i < array.length; i++)
         {
-           if (array[i] == numero)
-           {
-               count++;
+            if (array[i] == numero)
+            {
+                count++;
 
-           }
-           if (count > 1 )
-            return true;
+            }
+            if (count > 1 )
+                return true;
 
 
         }
